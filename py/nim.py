@@ -27,7 +27,7 @@ while n > 0:
     if not(player_takes.isdigit()):
         print(f"Invalid move. Please enter a whole number between 1 and {max_stones}.")
       #"continue": if these any of these invalid conditions is met the while loop exits this iteration and goes back to the top of the while loop, ie, it doesn't subtract stones or check for win.  
-			continue
+				continue
     else:
         player_takes = int(player_takes)#cast input value as integer
         if player_takes < 1 or player_takes > max_stones:
