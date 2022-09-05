@@ -28,6 +28,7 @@ while n > 0:
         print(f"Invalid move. Please enter a whole number between 1 and {max_stones}.")
       #"continue": if these any of these invalid conditions is met the while loop exits this iteration and goes back to the top of the while loop, ie, it doesn't subtract stones or check for win.  
 			continue
+			
     else:
         player_takes = int(player_takes)#cast input value as integer
         if player_takes < 1 or player_takes > max_stones:
@@ -52,14 +53,12 @@ while n > 0:
         comp_move = 1
     else:
         comp_move = n % (max_stones + 1)
-        
-        # create situation where player can win to test player win scenario
-        # comp_move = 1
+           
 
     print(f"The computer has taken {comp_move} stones.")
     n -= comp_move
     
     # check for win
     if n == 0:
-        print("There are 0 stones left.\nComputer wins! Better luck next time.")
+   		print("There are 0 stones left.\nComputer wins! Better luck next time.")
 
