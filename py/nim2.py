@@ -50,7 +50,7 @@ while n > 0:
         
         # create situation where player can win to test player win scenario
         # ai_move = 1
-
+		
     print(f"The computer has taken {ai_move} stones.")
     n -= ai_move
     
