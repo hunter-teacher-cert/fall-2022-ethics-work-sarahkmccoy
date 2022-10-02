@@ -2,7 +2,7 @@
 # Sarah McCoy
 # CSCI 77800 Fall 2022
 # collaborators: N/A
-# consulted: K Herr
+# copied from: K Herr
 
 
 # RULES: 
