@@ -1,5 +1,5 @@
 # regex.py
-#Sarah McCoy
+# Sarah McCoy
 # CSCI 77800 Fall 2022
 
 import re
